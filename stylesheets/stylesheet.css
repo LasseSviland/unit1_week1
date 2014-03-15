@@ -1,0 +1,23 @@
+/* CSS Document */
+
+body {
+  background-color: blue;
+}
+ul li {
+	list-style-type:hiragana;
+	
+}
+#main {
+	background-color: white;
+	padding:40px;
+	margin:20px auto;
+	width:900px;
+}
+.pictures ol li {;
+	display:inline;
+	list-style-type:none;	
+}
+.pictures ol li img {
+	width:360px;
+	height:360px;
+}

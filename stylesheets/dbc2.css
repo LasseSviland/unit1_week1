@@ -33,3 +33,13 @@ body {
 #sidebar img {
 	width:100%;
 }
+#img1 {
+	position:relative;
+}
+#text1 {
+	position:absolute;
+	color:blue;
+	font-size:24px;
+	top: 450px; 
+	left: auto; 
+}

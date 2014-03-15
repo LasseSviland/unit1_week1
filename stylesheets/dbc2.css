@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body {
+  background-color:green;  
+}
+#allContent {
+	background-color:white;
+	margin:auto;
+	padding:20px;
+	width:900px;
+}
+#header {
+	margin:10px;
+
+}
+#content {
+	width:626px;
+	float:left;
+	border-top:5px groove #FF0004;
+
+}
+#sidebar {
+	border-top:5px groove #FF0004;
+	width:230px;
+	float:right;
+}
+#footer {
+	clear:both;
+	border-top:3px #000 dashed;
+	text-align:center;
+}
+	
+#sidebar img {
+	width:100%;
+}

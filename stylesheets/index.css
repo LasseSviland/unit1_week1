@@ -1,0 +1,67 @@
+/* CSS Document */
+
+body {
+  background-color:#55FFFE;  
+}
+
+#main {
+	background-color:white;
+	margin:auto;
+	width:900px;
+	height:600px;
+	padding:20px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+#topnav {
+	background-color:#000;
+	clear:both;
+	color:#FFA100
+	-moz-border-radius:15px;
+	border-radius:15px;
+	padding:10px;
+	align-self:center;
+	margin-bottom:25px;
+}
+#topnav ul {
+	text-align:center;
+}
+#topnav ul li {
+	margin:auto;
+	display:inline;
+	padding:5px;
+	font-weight:bold;
+	font-size:24px;
+}
+#topnav ul li a:link{text-transform:uppercase; background-color:#000; color:#13FFFE;}
+#topnav ul li a:visited{text-transform:uppercase; background-color:#000; color:#13FFFE; }
+#topnav ul li a:active{text-transform:uppercase; background-color:#000; color:#13FFFE; }
+#topnav ul li a:hover{text-transform:uppercase; background-color:#FF0004; color:#F0FF16; }
+#topnav ul li a:focus{text-transform:uppercase; background-color:#000; color:#F0FF16; }
+
+img {
+	height:270px;
+}
+.content {
+	width:270px;
+	margin:15px;
+	text-align:center;
+	color:#FF0004;
+}
+.left {
+	float:left;
+}
+.middle {
+	float:left;
+}
+.right {
+	float:left;
+}
+
+/*
+.link a:link {text-transform:uppercase; color:#FFBD00; }
+.link a:visited {text-transform:uppercase; color:#FFBD00; }
+.link a:active {text-transform:uppercase; color:#F19208; }
+.link a:hover {text-transform:uppercase; color:#F19208;}
+.link a:focus {text-transform:uppercase; color:#F19208; }
+*/

@@ -13,6 +13,43 @@ body {
 	margin:10px;
 
 }
+#navigation {
+	background-color:#000;
+	clear:both;
+	color:#FFA100
+	-moz-border-radius:15px;
+	border-radius:15px;
+	padding:10px;
+	align-self:center;
+	margin-bottom:25px;
+}
+#navigation ul{
+	margin:10px;
+	display:block;
+	text-align:center;	
+	
+}
+#navigation ul li{
+
+	font-size:24px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:2px #FFBD00 dotted;
+	display:inline;
+	list-style-type:none;
+	margin:0px 100px;
+	padding:5px;
+	align:center;
+}
+#navigation ul li a:link{text-transform:uppercase; background-color:#000; color:FFBD00;}
+#navigation ul li a:visited{text-transform:uppercase; background-color:#000; color:FFBD00; }
+#navigation ul li a:active{text-transform:uppercase; background-color:#000; color:FFBD00; }
+#navigation ul li a:hover{text-transform:uppercase; background-color:#FF0004; color:#000000; }
+#navigation ul li a:focus{text-transform:uppercase; background-color:#000; color:FFBD00; }
+
+
+
+
 #content {
 	width:626px;
 	float:left;
@@ -43,3 +80,10 @@ body {
 	top: 450px; 
 	left: auto; 
 }
+/*
+.link a:link {text-transform:uppercase; color:#FFBD00; }
+.link a:visited {text-transform:uppercase; color:#FFBD00; }
+.link a:active {text-transform:uppercase; color:#F19208; }
+.link a:hover {text-transform:uppercase; color:#F19208;}
+.link a:focus {text-transform:uppercase; color:#F19208; }
+*/
